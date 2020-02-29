@@ -1,4 +1,5 @@
-game = {
+def game_hash
+  game = {
   :team1 => {
     :name => "The Ragin' Cajuns",
     :colors => ["red", "yellow"],
@@ -142,6 +143,8 @@ game = {
     }
   }
 }
+
+end
 
 # Using the power of Ruby, and the Hashes you created above, answer the following questions:
 # Return the number of points scored for any player:
