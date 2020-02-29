@@ -25,7 +25,13 @@ def game_hash
 end
 
 
-
+def shoe_size(player_n)
+  game_hash.each do |home_away, keys|
+    keys[:players].each do |player|
+      return player[:shoe] if player[:player_name] == player_n
+    end
+  end
+end
 
 
 
