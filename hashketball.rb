@@ -1,4 +1,4 @@
-def game_hash
+def game_hash{
   game = {
   :team1 => {
     :name => "The Ragin' Cajuns",
